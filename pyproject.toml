@@ -1,0 +1,28 @@
+[project]
+name = "zelda-lore-analytics"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Alejandro Berrizbeitia",email = "narrativus@proton.me"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas (>=2.2.3,<3.0.0)",
+    "beautifulsoup4 (>=4.13.4,<5.0.0)",
+    "aiohttp (>=3.11.18,<4.0.0)",
+    "openai (>=1.78.1,<2.0.0)",
+    "python-dotenv (>=1.1.0,<2.0.0)",
+    "streamlit (>=1.45.1,<2.0.0)",
+    "plotly (>=6.0.1,<7.0.0)",
+    "tiktoken (>=0.9.0,<0.10.0)",
+    "pytest (>=8.3.5,<9.0.0)",
+    "black (>=25.1.0,<26.0.0)",
+    "isort (>=6.0.1,<7.0.0)",
+    "pre-commit (>=4.2.0,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
