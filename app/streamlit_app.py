@@ -1,6 +1,7 @@
 import streamlit as st
-from zla.data import load_processed   # your helper
-from zla.viz import timeline_bar, network
+
+from zla.data import load_processed  # your helper
+from zla.viz import network, timeline_bar
 
 st.set_page_config(page_title="Zelda Lore Analytics", layout="wide")
 
